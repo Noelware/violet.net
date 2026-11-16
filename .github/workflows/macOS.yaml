@@ -76,7 +76,7 @@ jobs:
         steps:
             - uses: actions/checkout@v7
             - uses: ./.github/actions/setup-macos
-            - uses: bazel-contrib/setup-bazel@0.19.1
+            - uses: bazel-contrib/setup-bazel@0.19.2
               with:
                 bazelisk-cache: true
                 repository-cache: true
